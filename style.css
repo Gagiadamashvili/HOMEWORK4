@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;900&display=swap');
+*{
+ 
+    font-family: 'Red Hat Display';
+}
+
+body{
+    
+    background-color: #cddbff;
+    background-image: url(./Assets/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: white;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+.box{
+    align-content: center;
+}
+img{
+    border-radius: 20px 20px 0 0 ;
+}
+.text{
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37.04px;
+    text-align: center;
+    color: #1F2E55;
+    margin: auto;
+    margin: 20px;
+}
+.text1{
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 17px;
+    color: #717fa6;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 354px;
+    height: 78px;
+    line-height: 26px;
+}
+.song{
+    background-color: #F7F9FF;
+    width: 354px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    border-radius: 11px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.song-icon{
+    margin-left: 20px;
+}
+
+.plan{
+    margin-left: 20px;
+}
+
+.plan2{
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 16px;
+    color: #1F2E55;
+}
+.price{
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 16px;
+    color: #717FA6;
+}
+
+.change{
+    font-family: 'Red Hat Display';
+    color: #382AE1;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+.payment{
+    background-color: #382AE1;
+    width: 354px;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel{
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 15px;
+    color: #717FA6;
+    margin-top: 40px;
+    text-align: center;
+}
